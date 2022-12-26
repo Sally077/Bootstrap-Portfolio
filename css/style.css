@@ -1,3 +1,52 @@
 
+/* Body */
 
 
+
+/* Styles */
+
+h1
+h2
+h3
+h4
+h5
+h6 {
+    font-family: 'Quicksand', 'sans-serif';
+}
+
+
+
+/* Navigation Bar */
+
+.navbar.navbar-expand-lg.navbar-light.bg-light {
+    background-color: #f4acb7 !important;
+}
+
+
+.nav-link  {
+    color: black !important; 
+    position: relative;
+    margin-left: 0;
+    padding:10;
+    margin-right: 100px;
+    font-family: 'Quicksand' , 'sans-serif';
+}
+
+/* Jumbotron */
+
+.jumbotron {
+    background-color: #d8e2dc;
+    height: 300px;
+
+}
+
+#placeholder {
+    border-radius: 50%;
+    z-index: 1;
+    /* background-repeat: no-repeat; */
+    position: relative;
+    margin-left: 1230px;
+    margin-top: -350px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #696d7d;
+}
