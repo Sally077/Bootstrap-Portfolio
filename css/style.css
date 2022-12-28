@@ -142,6 +142,7 @@ h6 {
         max-width: 900px;
         width: calc(100% - 100px);
         height:400px;
+        padding:0px;
     }
 
     #container .options .option {
@@ -154,6 +155,7 @@ h6 {
         background-position: center;
         cursor: pointer;
         transition: 0.5s cubic-bezier(0.05, 0.61, 0.41,0.95);
+        padding: 0px;
 
     }
 
@@ -282,4 +284,20 @@ h6 {
 
     }
 
+    /* footer */
+
+    .footer {
+        background-color: #696d7d;
+        
+    }
+
+    
+
+    .card-text {
+        color: black;
+    }
+
+    .img.img {
+        background-color: #696d7d !important;  
+    }
        
