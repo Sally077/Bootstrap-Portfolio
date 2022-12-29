@@ -53,8 +53,7 @@ To add a screenshot, create an `assets/images` folder in your repository and upl
 
 ![alt text](assets/images/screenshot.png)
 
-![alt text](/assets/index.html/image.png) **needs fixing**
-![alt text](first-Challenge/Assets/first-Challenge\Assets\01-html-css-git-challenge-demo.png) **this one too**
+
 
 ## Credits
 

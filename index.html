@@ -7,6 +7,9 @@
     <!-- fontawsome icons -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js" integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://kit.fontawesome.com/c7328749f0.js" crossorigin="anonymous"></script>   
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <title>Bootstrap Portfolio</title>
 
 <!--Coffee Image free from pixabay by Engin Akyurt!-->
@@ -33,6 +36,11 @@
 <!-- <i class="fa-brands fa-css3-alt"></i> - CSS icon -->
 <!-- <i class="fa-solid fa-code"></i> - tag icon -->
 <!-- <i class="fa-brands fa-js"></i> - javascript icon -->
+
+<!-- <i class="fa-brands fa-github"></i> -->
+<!-- <i class="fa-brands fa-codepen"></i> -->
+<!-- <i class="fa-brands fa-linkedin"></i> -->
+
 
 <!-- fonts -->
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Caveat&family=Dancing+Script:wght@400;500;600&family=Dosis:wght@500&family=Pacifico&family=Quicksand&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
@@ -107,7 +115,7 @@
 
   <div class="col-lg-4"> 
     <div class="card" style="width: 18rem;">
-            <img class="card-img-middle" src="./images/pencils.jpg" height="200px" width="287px" alt="Card image cap">
+            <img class="card-img-middle" src="./images/cheat-sheet.jpg" height="200px" width="287px" alt="Card image cap">
             <div class="card-body">
             <h3 class="h3">Cheat Sheet</h3>
             <p class="card-text">This is a cheat sheet displaying how to style css elements.</p>
@@ -119,7 +127,7 @@
 
     <div class="col-lg-4"> 
      <div class="card" style="width: 18rem;">
-            <img class="card-img-right" src="./images/coffee.jpg" height="200px" width="287px" alt="Card image cap">
+            <img class="card-img-right" src="./images/travel-california.jpg" height="200px" width="287px" alt="Card image cap">
             <div class="card-body">
             <h3 class="h3"> Travel California</h3>
             <p class="card-text">This is the Travel California site I made using bootstrap.</p>
@@ -224,48 +232,74 @@
 
 <!-- about me -->
 
+
 <div class="container">
     <div class="row">
-        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-            <br />
-          <div class="accordion" role="tablist" aria-multiselectable="true">
-
+        <div class="col-lg-12"></div>
+        <h2 class="text-center sec-header">About Me</h2>
+    </div>
+</div>
+<div class="container">
+    <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingOne">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              Work
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+                <div class="row">
+                    <div class="col-lg-8 col-md-8">
+                        <h2>Work</h2>
+                        <div class="line"></div>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non ratione possimus dolorem debitis vitae facere exercitationem similique saepe quis, modi tempore nemo est voluptas laudantium corporis maxime? Eum, repellendus necessitatibus?</p>
+                        <div class="socials">
+                           <a href="#"><i class= fa-fa-facebook></i></a>
+                           <a href="#"><i class= fa-fa-twitter></i></a>
+                           <a href="#"><i class= fa-fa-linkedin></i></a>
+                           <a href="#"><i class= fa-fa-pinterest></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4">
+                    <img src="./images/code-dna.jpg" alt="" class="img-fluid">
+                </div>
+              <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+            </div>
+          </div>
         </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              Skills
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              Python
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+            </div>
+          </div>
+        </div>
+      </div>
+</div>
 
-<div class="accordion accordion-flush" id="accordionFlushExample">
-    <div class="accordion-item">
-      <h2 class="accordion-header" id="flush-headingOne">
-        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-          Accordion Item #1
-        </button>
-      </h2>
-      <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-        <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
-      </div>
-    </div>
-    <div class="accordion-item">
-      <h2 class="accordion-header" id="flush-headingTwo">
-        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-          Accordion Item #2
-        </button>
-      </h2>
-      <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
-        <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
-      </div>
-    </div>
-    <div class="accordion-item">
-      <h2 class="accordion-header" id="flush-headingThree">
-        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-          Accordion Item #3
-        </button>
-      </h2>
-      <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
-        <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
-      </div>
-    </div>
-  </div>
-</div>
-</div>
+
+
+
+           
 
 <!-- footer with links  -->
 
