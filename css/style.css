@@ -286,27 +286,42 @@ h6 {
 
     /* about me */
 
-    .accordion-body {
+    .panel-group {
+        height: 300px;
+    }
+
+    .panel.panel-default .panel-heading {
+        background-color: #d8e2dc;
 
     }
 
     /* footer */
 
-    .footer .rows {
+    .footer {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
         background-color: #696d7d;
-        /* position: absolute; */
-        width: 100vw;
-        height: 300px;
+        height: 200px;
+        margin-top: 20px;
     
     }
 
+    .socials a {
+        background-color: #696d7d;
+        align-items: center;
+        margin-left: 400px;
+        
+    }
+
+    .socials a i {
+        color:white;
+        padding: 12px;
+        font-size: 3em;
+        
+
+        
+    }
     
 
-    .card-text {
-        color: black;
-    }
-
-    .img.img {
-        background-color: #696d7d !important;  
-    }
-       
+    

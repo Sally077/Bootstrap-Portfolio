@@ -71,6 +71,9 @@ I followed the bootcamp zoom tutorial recording on how to apply bootstrap framew
 I looked at bootstrap templates for inspiration on how to create a portfolio
 https://bootstrapmade.com/bootstrap-personal-templates/
 
+I struggled to create an accordion using the bootstrap documentation the words would not expand or collapse and after several failed attempts I reverted to using the code from w3 schools tutorials.
+https://www.w3schools.com/bootstrap/tryit.asp?filename=trybs_ref_js_collapse&stacked=h
+
 
 ## License
 
