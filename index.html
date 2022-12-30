@@ -8,7 +8,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js" integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://kit.fontawesome.com/c7328749f0.js" crossorigin="anonymous"></script>   
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script> 
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <title>Bootstrap Portfolio</title>
 
@@ -37,9 +37,9 @@
 <!-- <i class="fa-solid fa-code"></i> - tag icon -->
 <!-- <i class="fa-brands fa-js"></i> - javascript icon -->
 
-<!-- <i class="fa-brands fa-github"></i> -->
+
 <!-- <i class="fa-brands fa-codepen"></i> -->
-<!-- <i class="fa-brands fa-linkedin"></i> -->
+
 
 
 <!-- fonts -->
@@ -231,70 +231,52 @@
 </section>
 
 <!-- about me -->
-
-
+ 
+<section class="About-Me">
 <div class="container">
-    <div class="row">
-        <div class="col-lg-12"></div>
-        <h2 class="text-center sec-header">About Me</h2>
-    </div>
-</div>
-<div class="container">
-    <div class="accordion" id="accordionExample">
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="headingOne">
-            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-              Work
-            </button>
-          </h2>
-          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-            <div class="accordion-body">
-                <div class="row">
-                    <div class="col-lg-8 col-md-8">
-                        <h2>Work</h2>
-                        <div class="line"></div>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non ratione possimus dolorem debitis vitae facere exercitationem similique saepe quis, modi tempore nemo est voluptas laudantium corporis maxime? Eum, repellendus necessitatibus?</p>
-                        <div class="socials">
-                           <a href="#"><i class= fa-fa-facebook></i></a>
-                           <a href="#"><i class= fa-fa-twitter></i></a>
-                           <a href="#"><i class= fa-fa-linkedin></i></a>
-                           <a href="#"><i class= fa-fa-pinterest></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-4">
-                    <img src="./images/code-dna.jpg" alt="" class="img-fluid">
-                </div>
-              <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-            </div>
-          </div>
+    <h2>About Me</h2>
+    <div class="panel-group" id="accordion">
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h4 class="panel-title">
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">Employment</a>
+          </h4>
         </div>
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="headingTwo">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-              Skills
-            </button>
-          </h2>
-          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-            <div class="accordion-body">
-              <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-            </div>
-          </div>
+        <div id="collapse1" class="panel-collapse collapse in">
+          <div class="panel-body">I have worked and qualified as an ICT teacher in 2006 gaining a PGCE. My role has expanded over the years 
+            and I now teach Computer Science. I enjoy the programming elements the most.</div>
         </div>
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="headingThree">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-              Python
-            </button>
-          </h2>
-          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-            <div class="accordion-body">
-              <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-            </div>
+      </div>
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h4 class="panel-title">
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">Skills</a>
+          </h4>
+        </div>
+        <div id="collapse2" class="panel-collapse collapse">
+          <div class="panel-body">During my time on bootcamp I have learned a range of skills in front end development including
+            HTML, CSS, Git Hub, bootstrap. I am now beginning to learn Javascripts and include this in my websites.</div>
+        </div>
+      </div>
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h4 class="panel-title">
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">Python</a>
+          </h4>
+        </div>
+        <div id="collapse3" class="panel-collapse collapse">
+          <div class="panel-body">I teach python at GCSE Level and can code using the following.
+            <br>Count-controlled and condition-controlled interactions
+            <br>Variables and Arrays
+            <br>File Handling
+            <br>Functions
           </div>
         </div>
       </div>
-</div>
+    </div> 
+  </div>
+
+</section>
 
 
 
@@ -303,7 +285,18 @@
 
 <!-- footer with links  -->
 
-<section class="footer">
+
+<div class="footer">
+    <div class="row">
+        <div class="socials">
+     <a href ="#"><i class="fa-brands fa-github"></i></a>
+     <a href="#"><i class="fa-brands fa-codepen" ></i> </a>
+     <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+    </div>
+    </div>
+</div>
+
+<!-- <section class="footer">
     <div class="card-columns">
         <div class="rows">
         <div class="col-lg-4">
@@ -337,7 +330,7 @@
     </div> 
         </div>
     </div>
-</section>
+</section> -->
 
 
  
